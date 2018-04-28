@@ -1,0 +1,23 @@
+html{
+    height: 100%;
+}
+body{
+    margin-bottom: 60px;
+    background-image: url(../images/funky-lines.png);
+}
+.image{
+    height: 13rem;
+}
+
+.image img{
+    z-index: 1;
+    position: absolute;
+}
+
+.imageText{
+    z-index: 2;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    max-width: 275px;
+}
